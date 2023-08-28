@@ -1,0 +1,540 @@
+Numero 1:
+	Frequência Geral:252
+	Frequência por posição:
+		Posição 1: 38
+		Posição 2: 45
+		Posição 3: 50
+		Posição 4: 48
+		Posição 5: 33
+		Posição 6: 38
+Numero 2:
+	Frequência Geral:263
+	Frequência por posição:
+		Posição 1: 49
+		Posição 2: 38
+		Posição 3: 50
+		Posição 4: 41
+		Posição 5: 44
+		Posição 6: 41
+Numero 3:
+	Frequência Geral:244
+	Frequência por posição:
+		Posição 1: 32
+		Posição 2: 50
+		Posição 3: 39
+		Posição 4: 31
+		Posição 5: 44
+		Posição 6: 48
+Numero 4:
+	Frequência Geral:277
+	Frequência por posição:
+		Posição 1: 56
+		Posição 2: 39
+		Posição 3: 50
+		Posição 4: 42
+		Posição 5: 43
+		Posição 6: 47
+Numero 5:
+	Frequência Geral:288
+	Frequência por posição:
+		Posição 1: 47
+		Posição 2: 61
+		Posição 3: 38
+		Posição 4: 49
+		Posição 5: 44
+		Posição 6: 49
+Numero 6:
+	Frequência Geral:258
+	Frequência por posição:
+		Posição 1: 47
+		Posição 2: 49
+		Posição 3: 40
+		Posição 4: 38
+		Posição 5: 44
+		Posição 6: 40
+Numero 7:
+	Frequência Geral:244
+	Frequência por posição:
+		Posição 1: 46
+		Posição 2: 38
+		Posição 3: 37
+		Posição 4: 45
+		Posição 5: 40
+		Posição 6: 38
+Numero 8:
+	Frequência Geral:263
+	Frequência por posição:
+		Posição 1: 36
+		Posição 2: 55
+		Posição 3: 43
+		Posição 4: 40
+		Posição 5: 41
+		Posição 6: 48
+Numero 9:
+	Frequência Geral:243
+	Frequência por posição:
+		Posição 1: 42
+		Posição 2: 39
+		Posição 3: 34
+		Posição 4: 43
+		Posição 5: 48
+		Posição 6: 37
+Numero 10:
+	Frequência Geral:302
+	Frequência por posição:
+		Posição 1: 47
+		Posição 2: 60
+		Posição 3: 39
+		Posição 4: 51
+		Posição 5: 54
+		Posição 6: 51
+Numero 11:
+	Frequência Geral:267
+	Frequência por posição:
+		Posição 1: 47
+		Posição 2: 52
+		Posição 3: 43
+		Posição 4: 48
+		Posição 5: 39
+		Posição 6: 38
+Numero 12:
+	Frequência Geral:253
+	Frequência por posição:
+		Posição 1: 40
+		Posição 2: 43
+		Posição 3: 47
+		Posição 4: 34
+		Posição 5: 50
+		Posição 6: 39
+Numero 13:
+	Frequência Geral:264
+	Frequência por posição:
+		Posição 1: 48
+		Posição 2: 39
+		Posição 3: 44
+		Posição 4: 46
+		Posição 5: 46
+		Posição 6: 41
+Numero 14:
+	Frequência Geral:250
+	Frequência por posição:
+		Posição 1: 38
+		Posição 2: 35
+		Posição 3: 42
+		Posição 4: 39
+		Posição 5: 49
+		Posição 6: 47
+Numero 15:
+	Frequência Geral:228
+	Frequência por posição:
+		Posição 1: 29
+		Posição 2: 43
+		Posição 3: 37
+		Posição 4: 40
+		Posição 5: 40
+		Posição 6: 39
+Numero 16:
+	Frequência Geral:269
+	Frequência por posição:
+		Posição 1: 37
+		Posição 2: 43
+		Posição 3: 42
+		Posição 4: 42
+		Posição 5: 55
+		Posição 6: 50
+Numero 17:
+	Frequência Geral:274
+	Frequência por posição:
+		Posição 1: 48
+		Posição 2: 53
+		Posição 3: 41
+		Posição 4: 41
+		Posição 5: 40
+		Posição 6: 51
+Numero 18:
+	Frequência Geral:254
+	Frequência por posição:
+		Posição 1: 33
+		Posição 2: 41
+		Posição 3: 53
+		Posição 4: 50
+		Posição 5: 40
+		Posição 6: 37
+Numero 19:
+	Frequência Geral:248
+	Frequência por posição:
+		Posição 1: 50
+		Posição 2: 37
+		Posição 3: 47
+		Posição 4: 36
+		Posição 5: 35
+		Posição 6: 43
+Numero 20:
+	Frequência Geral:252
+	Frequência por posição:
+		Posição 1: 50
+		Posição 2: 33
+		Posição 3: 45
+		Posição 4: 42
+		Posição 5: 44
+		Posição 6: 38
+Numero 21:
+	Frequência Geral:220
+	Frequência por posição:
+		Posição 1: 35
+		Posição 2: 52
+		Posição 3: 37
+		Posição 4: 34
+		Posição 5: 32
+		Posição 6: 30
+Numero 22:
+	Frequência Geral:235
+	Frequência por posição:
+		Posição 1: 41
+		Posição 2: 44
+		Posição 3: 33
+		Posição 4: 33
+		Posição 5: 33
+		Posição 6: 51
+Numero 23:
+	Frequência Geral:279
+	Frequência por posição:
+		Posição 1: 33
+		Posição 2: 45
+		Posição 3: 50
+		Posição 4: 48
+		Posição 5: 44
+		Posição 6: 59
+Numero 24:
+	Frequência Geral:263
+	Frequência por posição:
+		Posição 1: 45
+		Posição 2: 31
+		Posição 3: 50
+		Posição 4: 40
+		Posição 5: 49
+		Posição 6: 48
+Numero 25:
+	Frequência Geral:253
+	Frequência por posição:
+		Posição 1: 50
+		Posição 2: 33
+		Posição 3: 38
+		Posição 4: 48
+		Posição 5: 39
+		Posição 6: 45
+Numero 26:
+	Frequência Geral:217
+	Frequência por posição:
+		Posição 1: 33
+		Posição 2: 47
+		Posição 3: 30
+		Posição 4: 39
+		Posição 5: 27
+		Posição 6: 41
+Numero 27:
+	Frequência Geral:269
+	Frequência por posição:
+		Posição 1: 46
+		Posição 2: 41
+		Posição 3: 59
+		Posição 4: 40
+		Posição 5: 36
+		Posição 6: 47
+Numero 28:
+	Frequência Geral:274
+	Frequência por posição:
+		Posição 1: 60
+		Posição 2: 39
+		Posição 3: 43
+		Posição 4: 49
+		Posição 5: 50
+		Posição 6: 33
+Numero 29:
+	Frequência Geral:269
+	Frequência por posição:
+		Posição 1: 42
+		Posição 2: 40
+		Posição 3: 50
+		Posição 4: 59
+		Posição 5: 41
+		Posição 6: 37
+Numero 30:
+	Frequência Geral:277
+	Frequência por posição:
+		Posição 1: 52
+		Posição 2: 39
+		Posição 3: 50
+		Posição 4: 43
+		Posição 5: 41
+		Posição 6: 52
+Numero 31:
+	Frequência Geral:242
+	Frequência por posição:
+		Posição 1: 41
+		Posição 2: 34
+		Posição 3: 36
+		Posição 4: 46
+		Posição 5: 43
+		Posição 6: 42
+Numero 32:
+	Frequência Geral:274
+	Frequência por posição:
+		Posição 1: 55
+		Posição 2: 57
+		Posição 3: 41
+		Posição 4: 39
+		Posição 5: 40
+		Posição 6: 42
+Numero 33:
+	Frequência Geral:281
+	Frequência por posição:
+		Posição 1: 44
+		Posição 2: 47
+		Posição 3: 38
+		Posição 4: 47
+		Posição 5: 51
+		Posição 6: 54
+Numero 34:
+	Frequência Geral:279
+	Frequência por posição:
+		Posição 1: 41
+		Posição 2: 38
+		Posição 3: 53
+		Posição 4: 47
+		Posição 5: 51
+		Posição 6: 49
+Numero 35:
+	Frequência Geral:274
+	Frequência por posição:
+		Posição 1: 53
+		Posição 2: 35
+		Posição 3: 46
+		Posição 4: 42
+		Posição 5: 62
+		Posição 6: 36
+Numero 36:
+	Frequência Geral:268
+	Frequência por posição:
+		Posição 1: 41
+		Posição 2: 44
+		Posição 3: 41
+		Posição 4: 51
+		Posição 5: 47
+		Posição 6: 44
+Numero 37:
+	Frequência Geral:283
+	Frequência por posição:
+		Posição 1: 43
+		Posição 2: 45
+		Posição 3: 50
+		Posição 4: 61
+		Posição 5: 43
+		Posição 6: 41
+Numero 38:
+	Frequência Geral:276
+	Frequência por posição:
+		Posição 1: 47
+		Posição 2: 32
+		Posição 3: 52
+		Posição 4: 45
+		Posição 5: 51
+		Posição 6: 49
+Numero 39:
+	Frequência Geral:249
+	Frequência por posição:
+		Posição 1: 40
+		Posição 2: 53
+		Posição 3: 35
+		Posição 4: 38
+		Posição 5: 35
+		Posição 6: 48
+Numero 40:
+	Frequência Geral:244
+	Frequência por posição:
+		Posição 1: 30
+		Posição 2: 43
+		Posição 3: 37
+		Posição 4: 44
+		Posição 5: 44
+		Posição 6: 46
+Numero 41:
+	Frequência Geral:276
+	Frequência por posição:
+		Posição 1: 38
+		Posição 2: 51
+		Posição 3: 53
+		Posição 4: 48
+		Posição 5: 39
+		Posição 6: 47
+Numero 42:
+	Frequência Geral:276
+	Frequência por posição:
+		Posição 1: 43
+		Posição 2: 52
+		Posição 3: 46
+		Posição 4: 41
+		Posição 5: 47
+		Posição 6: 47
+Numero 43:
+	Frequência Geral:271
+	Frequência por posição:
+		Posição 1: 46
+		Posição 2: 49
+		Posição 3: 47
+		Posição 4: 50
+		Posição 5: 43
+		Posição 6: 36
+Numero 44:
+	Frequência Geral:276
+	Frequência por posição:
+		Posição 1: 51
+		Posição 2: 44
+		Posição 3: 42
+		Posição 4: 47
+		Posição 5: 54
+		Posição 6: 38
+Numero 45:
+	Frequência Geral:252
+	Frequência por posição:
+		Posição 1: 43
+		Posição 2: 42
+		Posição 3: 36
+		Posição 4: 37
+		Posição 5: 55
+		Posição 6: 39
+Numero 46:
+	Frequência Geral:260
+	Frequência por posição:
+		Posição 1: 49
+		Posição 2: 40
+		Posição 3: 39
+		Posição 4: 42
+		Posição 5: 46
+		Posição 6: 44
+Numero 47:
+	Frequência Geral:247
+	Frequência por posição:
+		Posição 1: 53
+		Posição 2: 40
+		Posição 3: 35
+		Posição 4: 36
+		Posição 5: 47
+		Posição 6: 36
+Numero 48:
+	Frequência Geral:240
+	Frequência por posição:
+		Posição 1: 30
+		Posição 2: 44
+		Posição 3: 45
+		Posição 4: 35
+		Posição 5: 41
+		Posição 6: 45
+Numero 49:
+	Frequência Geral:268
+	Frequência por posição:
+		Posição 1: 54
+		Posição 2: 53
+		Posição 3: 35
+		Posição 4: 41
+		Posição 5: 39
+		Posição 6: 46
+Numero 50:
+	Frequência Geral:252
+	Frequência por posição:
+		Posição 1: 40
+		Posição 2: 44
+		Posição 3: 34
+		Posição 4: 43
+		Posição 5: 48
+		Posição 6: 43
+Numero 51:
+	Frequência Geral:268
+	Frequência por posição:
+		Posição 1: 46
+		Posição 2: 42
+		Posição 3: 47
+		Posição 4: 44
+		Posição 5: 46
+		Posição 6: 43
+Numero 52:
+	Frequência Geral:261
+	Frequência por posição:
+		Posição 1: 38
+		Posição 2: 40
+		Posição 3: 45
+		Posição 4: 42
+		Posição 5: 50
+		Posição 6: 46
+Numero 53:
+	Frequência Geral:301
+	Frequência por posição:
+		Posição 1: 51
+		Posição 2: 56
+		Posição 3: 44
+		Posição 4: 50
+		Posição 5: 45
+		Posição 6: 55
+Numero 54:
+	Frequência Geral:269
+	Frequência por posição:
+		Posição 1: 45
+		Posição 2: 43
+		Posição 3: 50
+		Posição 4: 49
+		Posição 5: 41
+		Posição 6: 41
+Numero 55:
+	Frequência Geral:222
+	Frequência por posição:
+		Posição 1: 40
+		Posição 2: 34
+		Posição 3: 40
+		Posição 4: 43
+		Posição 5: 27
+		Posição 6: 38
+Numero 56:
+	Frequência Geral:269
+	Frequência por posição:
+		Posição 1: 44
+		Posição 2: 52
+		Posição 3: 56
+		Posição 4: 34
+		Posição 5: 38
+		Posição 6: 45
+Numero 57:
+	Frequência Geral:247
+	Frequência por posição:
+		Posição 1: 35
+		Posição 2: 34
+		Posição 3: 45
+		Posição 4: 42
+		Posição 5: 41
+		Posição 6: 50
+Numero 58:
+	Frequência Geral:253
+	Frequência por posição:
+		Posição 1: 33
+		Posição 2: 44
+		Posição 3: 53
+		Posição 4: 46
+		Posição 5: 39
+		Posição 6: 38
+Numero 59:
+	Frequência Geral:249
+	Frequência por posição:
+		Posição 1: 48
+		Posição 2: 40
+		Posição 3: 45
+		Posição 4: 41
+		Posição 5: 40
+		Posição 6: 35
+Numero 60:
+	Frequência Geral:248
+	Frequência por posição:
+		Posição 1: 45
+		Posição 2: 28
+		Posição 3: 37
+		Posição 4: 54
+		Posição 5: 46
+		Posição 6: 38
