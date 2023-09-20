@@ -22,7 +22,7 @@ class maquina:
             self.valor = 0
 
 
-maquina = maquina(int(input("Informe o preço do ticket: ")))#, True)
+maquina = maquina(int(input("Informe o preço do ticket: ")))
 rodando = True
 
 while rodando:
@@ -43,5 +43,7 @@ while rodando:
             maquina.imprimir_ticket()
         case "x":
             print(f"\nTotal Arrecadado: {maquina.arrecadado}")
-            break
+            rodando = False
+        case _:
+            print(f"Escolha uma das 3 opções listadas através de sua letra correspondente!\n")
 

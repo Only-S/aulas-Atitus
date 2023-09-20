@@ -1,0 +1,15 @@
+.tit {
+  text-align: center;
+  color: red;
+  size: 32px;
+}
+
+body {
+  background-color: green;
+}
+
+.paragrafo {
+  background-color: yellow;
+  color: blue;
+  size: 16px;
+}
