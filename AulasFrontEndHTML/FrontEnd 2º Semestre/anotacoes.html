@@ -1,0 +1,233 @@
+<!-- tags podem ser inseridas dentro de outras tags -->
+
+<!-- não usar espaços nem caracteres especiais na criação de arquivos -->
+
+<b></b> - Negrito
+
+<strong></strong> - Negrito (enfâse)
+
+<i></i> - Italico
+
+<u></u> - Sublinhado
+
+<hr />
+- Linha de divisão
+
+<br />
+- Pular uma linha (quebra de linha)
+
+<small></small> - Texto pequeno
+
+<del></del> - Riscado (deletado)
+
+<sup></sup> - Superior (ex: número exponencial)
+
+<sub></sub> - Inferior
+
+<mark></mark> - Marcação (destaca texto / marca texto)
+
+<html lang=""></html>
+- define a linguagem padrão da página
+
+<meta charset="" /> - define o tipo de digitação padrão (normalmente UTF-8)
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> -
+define que a tela redimensiona de acordo com o dispositivo
+
+<meta name="description" content="" /> - acrescenta descrição para a página pelo
+"content"
+
+<meta name="keywords" content="" /> - incluí palavras chaves para a página pelo
+"content"
+
+<!-- href serve para dar um caminho, seja link ou diretório da máquina -->
+
+<meta name="author" content="" /> - define quem é o criador da página pelo
+"content"
+
+<title>EncDecode</title> - define o título que aparece no navegador
+
+<link rel="stylesheet" href="" /> - Usa o css para estilizar a página
+
+<script href=""></script>
+- Usa o JavaScript para realizar as funções do site
+
+<abbr title="World Wide Web">WWW</abbr> - Insere uma abreviação
+
+<address>...</address>
+- Insere um endereço formatado ...<cite>...</cite>... - Insere o que está entre
+a tag como uma citação
+
+<q>...</q> - Insere aspas de citação
+
+<blockquote>...</blockquote>
+- Identa para destacr um texto
+
+<bdo dir=""></bdo> - Inverte a ordem do texto (de traz pra frente), como se
+espelhasse.
+
+<!--Isso é um comentário-->
+<!-- ctrl+k+c comenta automático -->
+
+<a href=""></a> - Tag para inserir um link em href
+
+<a href="" target="_blank"></a> - Faz com que o site seja aberto em uma nova aba
+
+<!-- link absoluto é o caminho completo do link -->
+
+<!-- link relativo é conforme a localização do arquivo no nosso projeto -->
+
+<a href="../../xxx"></a> - Para cada pasta que se deseja retornar deve
+acrescentar o ../
+
+<img src="" width="" height="" alt="" /> - Src trata-se do caminho da imagem,
+que pode estar no projeto ou ser um link de um site. Width trata da largura da
+imagem. Height trata da altura. Alt é usado para descrever a imagem.
+
+<!-- flaticon -->
+site para pegar ícones
+
+<!-- imagemap generator -->
+permite criar imagens com áreas clicáveis que redirecionam para outros links
+<!-- necessário redimensionar a imagem antes de realizar o vínculo-->
+
+inserir um <a href=""></a> com uma <img src="" alt="" /> dentro fara com que a
+imagem seja clicável pois será considerada um link
+
+<table></table>
+permite criar tabelas
+
+<tr></tr>
+- representa uma linha da tabela
+
+<th></th>
+- representa uma coluna da tabela
+
+<td></td>
+- representa um dado dentro da tabela
+
+<!-- - Ordem padrão de tabelas: -->
+
+<table>
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+
+<table width="" border="" style="text-align: center"></table>
+- width mexe no tamanho da tabela, border acrescenta bordas e a espessura e styl
+permite modificar o estilo da tabela.
+
+<ul></ul>
+- cria uma lista não ordenada (por pontinho)
+
+<li></li>
+- trata-se do item da lista (deve ser utilizado dentro de um ul ou ol)
+
+<ol></ol>
+- cria uma lista ordenada (por número)
+
+<iframe
+  style="border: none"
+  name=""
+  src=""
+  width=""
+  height=""
+  title=""
+  frameborder="0"
+></iframe>
+- SRC específica um caminho, width e heigth a largura e altura, title concede um
+título, o name dá um nome e o style muda o estilo (melhor aplicado via css). A
+ideia é incorporar uma outra página dentro da página atual (um sonho dentro de
+um sonho).
+
+<a href="" target=""></a> - O "target" pode definir o que vai ser aberto,
+redirecionado ou que vai ser aberto na própria página.
+
+<form action="" method=""></form>
+- Cria um formulário. "action" define pra onde será encaminhado o formulário
+(normalmente para um arquivo js). "method" será um GET ou POST entre outros...
+
+<input type="text" placeholder="..." value="" name="" required /> - Cria um
+campo. Type define o tipo do campo (nesse caso texto). Placeholder define o que
+aparece por padrão no campo,a té que se altere. "type="password"" faz com que o
+que for digitado no campo seja oculto por pontinhos (comum para senhas).
+"type="email"" verifica se o que foi digitado no campo é um email (ou seja,
+precisa conter @ e .). "type="submit"" cria um botão clicável seguido do
+value="" para enviar o conteúdo. O "required" define que o campo é obrigatório
+ser preenchido. "type="radio"" cria uma opção marcável (bolinha do enem) e deve
+ser seguido de um name="" e value="". "type="checkbox"" cria uma caixinha de
+seleção que permite múltipla escolha.
+
+<!-- tag input não possuí fechamento, pois é uma tag única -->
+
+<!-- LABEL USADO COMO LEGENDA -->
+<label for=""></label> - Adiciona uma legenda (Normalmente utilizada junto de um
+campo identificado por um id). O "for" indica a qual campo estará relacionado,
+assim caso o label seja clicado automaticamente slecionará o campo.
+
+<!-- usar label e input dentro de um form -->
+
+<!-- lembrar de utilizar labels em conjunto de inputs para existir uma informação sobre o que está sendo inserido -->
+
+<!-- o name="" indica o conjunto dos itens, precisa ser igual em caso de input type="radio" -->
+
+<!-- value="" é o valor que será enviado pelo formulário p/ o backend-->
+
+uso ideal dos formulários:
+
+<form action="">
+  <label for=""></label>
+  <input type="text" />
+</form>
+
+<!-- O select cria o campo de seleção em uma combo box de múltiplas escolhas, deve
+sempre ter um option dentro cuja qual também deve ter um "value" a ser enviado. -->
+<select name="" id="">
+  <option value=""></option>
+</select>
+
+<!-- O "disabled" faz com que a opção não possa ser selecionada. O "selected" faz com que essa opção já esteja selecinada por padrão. -->
+<option selected disabled value=""></option>
+
+<!-- Cria uma caixa de texto digitável. O que estiver dentro dela acaba já sendo
+parte do conteúdo da caixa. "rows" define quantas linhas (altura) tem. "cols"
+define quantas colunas(largura) tem. Podemos utilizar "placeholder". lembrar de
+batizar com um "name". -->
+<textarea name="" id="" cols="30" rows="10"></textarea>
+
+<!-- cria um botão, similar ao <input type="submit"> -->
+<button></button>
+
+<!-- "required" torna algo obrigatório ser preenchido -->
+
+<!-- tag audio permite incluir um audio além disso deve conter o "controls". tag
+source é a tag onde deve conter o caminho do arquivo/link de audio -->
+<audio controls>
+  <source src="" type="" />
+</audio>
+
+<!-- similar a tag de audio. o width precisa ser determinado. puxar o controls
+também. Pode ser utilizado o argumento "poster" para incluir uma thumbnail. "autoplay" permite que video rode automaticamente. "controlslist ="nodownload"" impede o download. "nofullscreen" usado com um espaço o controlslist tira a opção de tela cheia. "disablepictureinpicture" desabilita a opção picture in picture -->
+<video height="" width="" poster="" controls autoplay controlslist="">
+  <source src="" type="" />
+</video>
+
+CONCEITO DE DIVS E HTML SEMANTICO: A tag
+<div class=""></div>
+é neutra, bastante utilizada junto do CSS.
+
+<!-- TAGS MUITO UTILIZADAS: -->
+<header></header>
+- para cabeçalhos
+<nav></nav>
+- para menus de navegação
+<section></section>
+- para criar seções no site
+<article></article>
+- para criar um campo de artigo
+<footer></footer>
+- para definir o rodapé da página

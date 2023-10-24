@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Este site visa fornecer um Encriptador/Decriptador de cifras, o mesmo receberá atualizações ao longo do tempo."
+    />
+    <meta
+      name="keywords"
+      content="decriptador, encriptador, cifras, cesar, transposição, deslocamento, polybus, poligrafica"
+    />
+    <meta name="author" content="Richard F. Rodrigues" />
+    <title>EncDecode</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <script href="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Encriptador/Decriptador</h1>
+    </header>
+
+    <div class="painel">
+      <label for="inserttext">TEXTO</label>
+      <div class="texto">
+        <textarea
+          name="inserttext"
+          placeholder="Insira seu texto aqui"
+          cols="30"
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="">O que deseja?</label>
+        <select name="" id="" required>
+          <option selected disabled value="">Selecione uma opção</option>
+          <option value="encrypt">Encriptar</option>
+          <option value="decrypt">Descriptar</option>
+        </select>
+
+        <label for="">Selecione a cifra desejada</label>
+        <select name="" id="" required>
+          <option selected disabled value="">Escolha uma opção</option>
+          <option value="cesar">Cesar</option>
+          <option value="transposicao">Transposição</option>
+          <option value="deslocamento">Deslocamento</option>
+          <option value="polybus">Polybus</option>
+          <option value="poligrafica">Poligráfica</option>
+        </select>
+      </div>
+
+      <div>
+        <button>Analisar</button>
+      </div>
+
+      <div id="resultado">TEXTO</div>
+
+      <div class="resumo">
+        <p id="resumocesar">resumocesar</p>
+        <p id="resumotrans">resumotrans</p>
+        <p id="resumodeslo">resumodeslo</p>
+        <p id="resumopolyb">resumopolyb</p>
+        <p id="resumopolig">resumopolig</p>
+      </div>
+    </div>
+
+    <footer>AAAAAAAAA</footer>
+  </body>
+</html>

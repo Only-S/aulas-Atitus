@@ -1,0 +1,17 @@
+body {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+
+header {
+  background-color: #969696;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #969696;
+}

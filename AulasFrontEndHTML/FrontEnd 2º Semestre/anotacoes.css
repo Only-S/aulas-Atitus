@@ -1,0 +1,161 @@
+SELETORES, CLASSES E IDENTIFICADORES
+
+seletores são as próprias tags, ex:
+    h1{
+        teste
+    }
+
+classes são referenciadas por "."
+    .nome_classe{
+        teste
+    }
+
+identificadores únicos (id) deveme ser únicos sem reptições e devem ser referenciados por "#"
+    #nome_id{
+        teste
+    }
+
+não opodemos iniciar nomes com números, nem conter espaços ou coarateres especiais
+
+uma forma de agrupar seletores é fazer:
+    h1, p{
+        teste
+    }
+
+---------------------------------------------------------------------------------------------------------------
+
+COLOR
+
+color picker <- página do google para adquirir valor exadecimal de um cor
+
+cores podem ser inseridas pelo nome em inglê, pelo valor hexadecimal ou no padrão RGB
+
+---------------------------------------------------------------------------------------------------------------
+
+BACKGROUND
+
+"background-color" <- segue a mesma regra da propriedade "color"
+podemos inserir como fundo uma imagem através da propriedade "background-imagem:url()"
+com "background-size" podemos definir o tamanho que a imagem ficara no elemnto, para isso temos as variações: 
+    contain <- mantem o tamanho ajustado mas repete a imagem se não couber em todo elemento;
+    cover <- ajusta ao elemento cortando os cantos caso necessário
+
+"background-repeat" <- usado para definir se a imagem repete ou não caso não consiga pegar toda área do elemento. Podemos usar os padrões:
+    repeat <- repete a imagem
+    no-repeat <- impede a repetição
+    repeat-x <- repete somente pros lados
+    repeat-y <- repete somete pra cima ou pra baixo;
+
+com "background-position" podemos deinifir qual ponto da imagem queremos dar foco com os padrões:
+    top, center, bottom, left, right <- cada uma conforme o lado desejado
+
+é possível utilizar um tipo de "short range", que seria inserir tudo em uma só proprieda para resumir, ex:
+    background: gray url no-repeat center;
+não é ideal usar desta forma.
+
+---------------------------------------------------------------------------------------------------------------
+
+BORDER
+
+com "border:" podemos deinifir tamanho, estilo entre ouras coisas da borda:
+    ex: border: 1px solid black;
+    padrão: tamanho estilo cor
+        tamanho: conforme o desejado
+
+        estilo:solid <-solida
+                dotted <- pontilhada
+                dashed <- traçada 
+                double <- cria uma borda dupla
+                groove <- efeito 3D
+                ridge <- parece que vem de fora do elemento
+                inset <- de dentro pra fora
+                outset <- de fora pra dentro
+                none <- nenhuma
+                hidden <- oculta
+        
+        cor: segue o padrão da propriedade color
+
+com "border-'direção':" podemos personalizar cada lado da borda
+
+com "border-radius:" podemos arredondar a borda conforme desejado
+
+---------------------------------------------------------------------------------------------------------------
+
+MARGIN
+
+com "margin:" podemos definir as margens da página;
+com "margin-direção:" podemos definir exatamente onde, qual lado quermeos que tenha uma margem
+se utilizar apenas "margin" como short range ela aceita os quatro lados na seguinte ordem:
+    margin: "topo" "direta" "abaixo" "esquerda";
+
+---------------------------------------------------------------------------------------------------------------
+
+PADDING
+
+faz os mesmo que o margin, porém ele faz dentro do elemento, enquanto o "margin" é referente à página, o "padding" é referente ao elemento.
+de resto ele funciona ighual ao "margin":
+    padding: "topo" "direta" "abaixo" "esquerda";
+    padding-"direção":
+
+padding é bastante usado para se criar botões personalizados
+
+---------------------------------------------------------------------------------------------------------------
+
+BONUS - efeito de quando passar o mouse sobre um elemento
+
+    .nome_classe:hover{
+        teste(color,backgorund-color,etc...)
+    }
+
+"hover" significa "sobre"
+
+---------------------------------------------------------------------------------------------------------------
+
+WIDTH & HEIGHT
+
+simples, cada um define a largura e altura do elemento.
+    width: 999x
+    height: 999x
+importante notar que o elemento fica preso dentro destes valores estipulados, se ajustando conforme necessário
+"max-width" define o tamanho máximo que a tela pode ter de largura
+
+---------------------------------------------------------------------------------------------------------------
+
+TEXT
+
+com "text-align" podemos organizar como fica alinhado o texto. 
+    padrões:    center <- centralizado
+                left <- à esquerda
+                right <- à direita
+                justify <- justificado
+
+com "direction:rtl" podemos inverter a direção original do texto.
+
+com "unicode-bidi:bidi-override" podemos inverter as palavras de traz pra foreignObject.
+
+com "text-decoration:" podemos mudar o aspecto visual do texto (muito utilizado com links).
+    padrões:    none <- nenhum
+                overline <- linha acima do texto
+                line-through <- linha no meio do texto, pra dar efeito de riscado
+                inderline  <- linha abixo do texto
+
+com "text-transform:" podemos mudar o comportamento do texto.
+    padrões:    uppercase <- deixa tudo em maísculo
+                lowercase <- deixa tudo em minúsculo
+                capitalize <- Deixa a primeira letra de todas as palavras em maiúsculo
+
+com "text-indent: tamanho" podemos aplicar um efeito de parágrafo.
+
+com "letter-spacing: tamanho" permite terminar o espaçamento entre letras.
+
+com "line-height: tamanho" (tamanho definido utilizando casa decimais) podemos definir o espaçamento entre linhas do texto.
+
+com "word-spacing: tamanho" podemos definir o espaçmento entre as palavras.
+
+---------------------------------------------------------------------------------------------------------------
+
+FONTES
+
+com "font-family:" podemos definir o padrão da fonte
+
+    
