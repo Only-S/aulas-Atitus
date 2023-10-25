@@ -156,6 +156,53 @@ com "word-spacing: tamanho" podemos definir o espaçmento entre as palavras.
 
 FONTES
 
-com "font-family:" podemos definir o padrão da fonte
+com "font-family:" podemos definir o padrão da fonte (já vem com diversas disponíveis).
+com "font-size:" podemos definir o tamanho da fonte.
 
-    
+para usar fontes externas, podemos utilizar o Google Fonts que possuí fontes livres de direitos autorais.
+Após selecionar uma fonte, devemos copiar o link ou o import da fonte e inserir no nosso index.html, em seguida adicionar a linha de css onde deseja aplicar a fonte.
+
+com "font-style:" podemos definir estilos diferentes para a fonte (ex: normal, italic, oblique).
+com "font-weight:" é possível definir a grossura da fonte (ex: bold p/ negrito ou um valor númerico conforme a grossura desejada)
+
+---------------------------------------------------------------------------------------------------------------
+
+LINKS
+
+uma forma de referenciar uma classe à um link, usamos:
+    a.nome_classe{
+        teste
+    }
+em outras palavras, essa propriedade css só vai funcionar se for um link que possuir a classe "nome_classe"
+
+podemos usar as popriedades já cionhecidas como? background, color, padding, text-decoration, border, etc.
+além disso podemos utilizar o ":hover".
+
+um forma de manipular o comportamento de um link para criar um botão é:
+    a.nome_classe{
+        teste
+    }
+
+    a.nome_classe:hover{
+        teste
+    }
+
+Assim o cascateamento do CSS vai manipular todas as propriedades em conjunto.
+
+Uma propriedade que pode ser usada, é o "cursor:". com ela, podemos definir qual aparencia ou comportamento o cursor terá ao ser posicionado sobre um link.
+
+---------------------------------------------------------------------------------------------------------------
+
+DISPLAY
+
+podemos definir o comportamento do campo de um elemento
+
+display:block -> ele ocupa toda a extensão do elemento/página, todo o "bloco" e os novos elementos são posicinados abaixo
+display:inline -> ela ocupa apenas o espaço necessário referente ao elemento e os novos elementos são posicinados ao lado
+display:none -> faz com que o elemento não apareça desde o primeiro momento, apesar de ser carregado na página... Útil para fazer um elemento dinâmico
+
+no display inline o comportamento funciona como se limitasse à palavras e assim criaria um espaçamento em branco entre cada palavra (isso indepente do "margin:"")
+
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cifra de César</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+
+      #container {
+        background-color: #fff;
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      input {
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      #result {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Cifra de César</h2>
+      <label for="message">Mensagem:</label>
+      <input type="text" id="message" />
+      <label for="shift">Deslocamento:</label>
+      <input type="number" id="shift" min="1" max="25" value="3" />
+      <button onclick="encrypt()">Criptografar</button>
+      <button onclick="decrypt()">Descriptografar</button>
+      <div id="result"></div>
+    </div>
+
+    <script>
+      function encrypt() {
+        const message = document.getElementById("message").value;
+        const shift = parseInt(document.getElementById("shift").value);
+        const result = caesarCipher(message, shift);
+        document.getElementById(
+          "result"
+        ).textContent = `Mensagem Criptografada: ${result}`;
+      }
+
+      function decrypt() {
+        const message = document.getElementById("message").value;
+        const shift = parseInt(document.getElementById("shift").value);
+        const result = caesarCipher(message, -shift);
+        document.getElementById(
+          "result"
+        ).textContent = `Mensagem Descriptografada: ${result}`;
+      }
+
+      function caesarCipher(text, shift) {
+        return text
+          .split("")
+          .map((char) => {
+            if (char.match(/[a-z]/i)) {
+              const code = char.charCodeAt(0);
+              let offset = 65;
+              if (char.match(/[a-z]/)) {
+                offset = 97;
+              }
+              return String.fromCharCode(
+                ((code - offset + shift) % 26) + offset
+              );
+            }
+            return char;
+          })
+          .join("");
+      }
+    </script>
+  </body>
+</html>
