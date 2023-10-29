@@ -109,6 +109,8 @@ BONUS - efeito de quando passar o mouse sobre um elemento
 
 "hover" significa "sobre"
 
+shift + alt com a linha selecionada, copia a linha e rescreve a medida que vai descendo.
+
 ---------------------------------------------------------------------------------------------------------------
 
 WIDTH & HEIGHT
@@ -202,6 +204,186 @@ display:inline -> ela ocupa apenas o espaço necessário referente ao elemento e
 display:none -> faz com que o elemento não apareça desde o primeiro momento, apesar de ser carregado na página... Útil para fazer um elemento dinâmico
 
 no display inline o comportamento funciona como se limitasse à palavras e assim criaria um espaçamento em branco entre cada palavra (isso indepente do "margin:"")
+
+com o "display: inline-block;" ele segue as regras do display em inline, mas aceita as configuração do display block
+
+podemos utilizar a propriedade "visibility: hidden;" para ocultar um elemento sem perder a área que ele ocupa na página, ao contrário do "display: none;".
+
+---------------------------------------------------------------------------------------------------------------
+
+DICA SOBRE USO DO MAX-WIDTH
+
+ele faz com que o elemento possua no máximo a largura definida, mas caso esteja sendo utilizada uma tela menor como de um celular por exemplo, a largura do elemento acaba se ajustando ao tamanho tela
+
+---------------------------------------------------------------------------------------------------------------
+
+POSITION
+
+existem 5 tipos de position:
+    static -> posicionamento padrão.
+
+    relative -> posicinamento relativo à posição original do elemento (desbloqueia as opções top, left, right & bottom esse parâmetros funcionam como coordenas p/ o elemento e a opção z-index). Podemos usar a propriedade "z-index: ;" para definir a ordem de posicionamentos da pagina, o que fica acima de que, através de números.
+
+    fixed -> faz com que o elemento se mantenha fixo em um ponto relativo à tela (definimos a posição exata através das propriedades top, bottom, etc...), além disso o elemetno fica acima de todos os outros da tela.
+
+    absolute -> este desrespeito qual sera a posição do elemento de acordo com o elemento pai ao qual ele esta contido. No entanto, caso o elemento pai não possua uma position definida, o elemento filho terá como referência o elemento com posicionamento acima do pai. (tbm utiliza top, right, ...).
+
+    sticky -> trava o elemento no ponto desejado e assim que utilizada uma barra de rolagem o mesmo andará junto da tela (é relativo ao pai).
+
+---------------------------------------------------------------------------------------------------------------
+
+OVERFLOW
+
+em algumas ocasiões eu posso desejar definir o tamanho total do meu elemento, porém ao fazer isso, pode ser que o conteúdo dentro dele "vaze" devido a prorpiedade de overflow.
+
+"overflow: visible;" o conteúdo segue sendo mostrado mesmo que ultrapasse o "tamanho" do elemento.
+"overflow: hidden;" faz com que apenas o conteúdo contido dentro do tamanho do elemento permaneça visível.
+"overflow> scroll" adiciona a barra de rolagem par ao elemento.
+"overflow: auto" é automático, ou seja, seleciona o tipo de overflow mais ideal de acordo com o conteúdo e o tamanho do elemento.
+
+a propriedade overflow: só funciona caso seja definido a altura do nosso elemento!
+
+usando "overflow-y: hidden;" ou "overflow-x: hidden;" podemos ocultar a barra de rolagem do elemento (eixo y = altura, eixo x = largura).
+
+---------------------------------------------------------------------------------------------------------------
+
+FLOAT
+
+Utilizando quando precisamos ter um certo alinhamento em nossa página. Em outra palavras o elemento desejado sai do fluxo original da página/elemento pai e pode ser inserido em outros pontos. 
+
+usando "clear:both" o elemento contendo essa propriedade, voltará para o fluxo normal da página. Do contrário ele seguira até o limite do elemento que está em float.
+
+os itens em float acabam modificando a posição dos demais itens presentes, movendoos pro lado, pra cima e pra baixo, conforme o posicionamento do elemento em float.
+
+---------------------------------------------------------------------------------------------------------------
+
+OPACITY
+
+usando "opacity: 0.x;"" podemos definir quão visível algo é em nossa página. Podemos utilizar juntamente o "nome_classe:hover" para criar um efeito sobre o item para que fique menos opaco ao mexer com o mouse sobre.
+O controle da opacidade vai de 0.0 até 1 (porcentagem em decimais). 
+
+Caso haja um texto dentro do elemento, o ideal é que ele seja inserido por fora e ajustado individualmente ou então o mesmo será transparecido.
+
+---------------------------------------------------------------------------------------------------------------
+
+DROPDOWN
+
+Efeito de abrir listinha com itens ao selecionar um elemento... Ver aula-css-dropdown para maior clareza.
+
+---------------------------------------------------------------------------------------------------------------
+
+ESPECIFICIDADE
+
+Se houver 2 regras afetando um mesmo elemento, é necessário saber o que o navegador executara primeiro.
+
+Ex: Style dentro da tag > style dentro do html > style dentro do css externo.
+
+Classes tem prioridade em relação ao sleetor simples (tag).
+
+Identificadores únicos (id) são mais fortes que classes, ou seja, tem prioridade.
+
+Style(direto na tag) > ID > Classe > Seletor(tag). Porém seletor + classe ou ID é mais específico e por isso ganha mais força.
+
+Caso seja usada um mesmo seletor com propriedades iguais, o que vai valer vai ser sempre o último.
+
+id > tag.classe > .classe > tag.
+
+---------------------------------------------------------------------------------------------------------------
+
+IMPORTANT
+
+Inserindo o comando "!important" em uma propriedade, ele faz com que todas as demais regras da especificade sejam ignoradas e considere apenas o que você marcou com "!important", inclusive ignora a regra masi forte que seria direto na tag, "ela força o comportamento", mas n]ao deve ser utilizado sem sabedoria.
+
+---------------------------------------------------------------------------------------------------------------
+
+GRADIENTE
+
+Efeito de transição de "uma cor pra outra" ou "de um elemento à outro".
+
+Devemos utilizar a propriedade "background-image: ;" com o parâmetro "linear-gradient()". Entre os parênteses podemos definir, a direção do gradiente.
+    Ex: background-image: linear-gradiente(45deg, red, green, blue);
+    "linear" trata de linha, para um circulo podemos usar "radial" entre outros.
+Além disso podemos definir a porcentagem presente da cor, utilizando por exemplo: blue 55%
+
+Em resumo é um efeito de degradê.
+
+---------------------------------------------------------------------------------------------------------------
+
+BOX-SHADOW E TEXT-SHADOW
+Efeitos de sombra em textos e elementos.
+
+TEXT
+
+Usa-se "text-shadow: valorVertical valorHorizontal valorBlur valorCor" e você via verificando a melhor formatação.
+Podemos fazer sombras mescladas com: text-shadow: valorVertical valorHorizontal valorBlur valorCor, valorVertical valorHorizontal valorBlur valorCor.
+
+BOX
+
+Usa-se "box-shadow: valorVertical valorHorizontal valorBlur valorCor".
+
+Dica de box shadow para fazer cards: 
+    box-shadow:: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19).
+
+Efeitos de sombra é interessante pesquisar estilos que outras pessoas já criaram e aplicar ao seu código.
+
+---------------------------------------------------------------------------------------------------------------
+
+EFEITOS DE TEXTO 
+
+propriedade "white-space:nowrap" faz o texto ficar todo lado a lado, sem quebra de linhas.
+propriedade "text-overflow" define como o texto vai se comportar ao atingir o limite do overflow.
+
+---------------------------------------------------------------------------------------------------------------
+
+MEDIA QUERIES
+
+"Layout responsivo" ou responsividade. Permite ver a aplicação de diferentes formas de acordo com a resolução. Afinal temos diferentes dispositivos para se visualizar uma página.
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    o que vai acontecer se o tamanho máximo for o definido em "max-width:"
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {...}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {...}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {...}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {...}
+
+estas são as 5 media queries usadas comumente por padrão. Lembrando que ao invés de "screen" podemos passar inúmeros outros parâmetros de tela, como impressoras entre outros, mas o mais comum e usado é screen.
+
+O seletor deve ser utilizado dentro da media, só assim o css funcionára.
+
+É possível definir o que acontece dentro de um intrevalo exeto de tamanho usando:
+    @media only screen and (min-width: 1080px) and (max-width: 1920px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
