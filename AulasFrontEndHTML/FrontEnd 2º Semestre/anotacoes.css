@@ -360,31 +360,62 @@ estas são as 5 media queries usadas comumente por padrão. Lembrando que ao inv
 
 O seletor deve ser utilizado dentro da media, só assim o css funcionára.
 
-É possível definir o que acontece dentro de um intrevalo exeto de tamanho usando:
-    @media only screen and (min-width: 1080px) and (max-width: 1920px)
+É possível definir o que acontece dentro de um intervalo exato de tamanho usando:
+    @media only screen and (min-width: 1080px) and (max-width: 1920px) {...}
+
+
+---------------------------------------------------------------------------------------------------------------
+
+FLEXBOX
+
+Trabalha utilizando o tipo de "display: flex". Ele permite trabalhar de melhor forma os diferentes tipos de dispaly com diversas propriedades próprias.
+
+    
+PROPRIEDADES:
+
+    flex-direction:
+        - column -> comportamento de bloco, tomando a área até o fim da página.
+        - row -> comportamento de linha, deixando elementos um ao lado do outro.
+        - row-reverse -> comportamento de linha, mas iniciando do lado direito da página e invertendo a ordem dos elementos.
+        - column-reverse -> comportamento de bloco, mas invertendo a ordem dos elementos.
+
+    flex-wrap:
+        - nowrap -> padrão, os elementos não estarão contidos a ele, vazando do elemento pai.
+        - wrap -> ao atingir o tamanho do elemento pai, ele joga os elementos pra próxima linha.
+    
+    flex-flow:
+    Trata-se de um short range que unifica o direction e wrap, funciona na ordem-> flex-flow: row wrap
+
+    justify-content: (ajusta o elemento em relação à horizontal)
+        - flex-start -> padrão, os itens ficam alinhados à esquerda do elemento pai.
+        - flex-end -> os itens ficam alinhados à direita do elemento pai.
+        - center -> os itens ficam alinhados ao centro do elemento pai.
+        - space-between -> adapta os itens dentro do elemento pai para criar um espaçamento entre um e outro de forma uniforme. (responsivo)
+        - space-around -> cria um espaçamento uniforme na volta de cada um dos elementos. (responsivo)
+
+    align-items: (ajusta o elemento em relação à vertical)
+        - stretch -> faz com que o elemento filho ocupe todo espaço/altura do elemento pai.
+        - center -> faz com que os itens fiquem justificados ao centro do elemento pai.
+        - flex-start -> os itens ficam alinhados ao inicio do elemento pai.
+        - flex-end -> os itens ficam alinhados ao final do elemento pai.
+        - space-between -> adapta os itens dentro do elemento pai para criar um espaçamento entre um e outro de forma uniforme. (responsivo)
+        - space-around -> cria um espaçamento uniforme na volta de cada um dos elementos. (responsivo)
+
+    align-content: (necessário para não deixar os itens da próxima linha separados)
+        - center -> deixa tudo num mesmo bloco ao centro.
+        - flex-start -> os itens ficam todos alinhados ao inicio do elemento pai.
+        - flex-end -> os itens ficam todos alinhados ao final do elemento pai.
+
+    A principal diferença entre align-items e align-content é que no content pegamos todos os elementos e agrupamos. Com o items vamos manipular itens de forma individual.
+
+    flex-grow: (sempre deve ficar no elemento filho, trata-se do crescimento dos itens em relação aà tela de forma automatizada).
+    O número inserido define o tamanho que o item vai crescer.
 
 
 
 
 
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 

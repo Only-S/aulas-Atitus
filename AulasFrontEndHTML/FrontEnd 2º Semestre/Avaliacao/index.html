@@ -20,62 +20,75 @@
       href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Ubuntu&display=swap"
       rel="stylesheet"
     />
-    <script href="script.js"></script>
+    <script src="script.js"></script>
     <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon" />
   </head>
 
   <body>
     <header>
-      <img id="main_icon" src="IMG/icon.png" />
-      <h1 class="titulo">Encriptador/Decriptador</h1>
+      <a id="icon" href="index.html">
+        <img
+          src="IMG/icon.png"
+          alt="Círculo com uma abertura no canto inferior direito contendo um cadeado deabloqueado no centro"
+        />
+      </a>
+      <a href="index.html">
+        <h1 id="titulo">EnDec</h1>
+      </a>
     </header>
+    <h2 id="subtitulo">Encriptador/Decriptador de Cifras de Substituição</h2>
 
-    <div class="painel">
-      <label for="inserttext">TEXTO</label>
-      <div class="texto">
-        <textarea
-          name="inserttext"
-          placeholder="Insira seu texto aqui"
-          cols="30"
-        ></textarea>
+    <div>
+      <div class="insere">
+        <label for="inserttext"
+          >Insira abaixo o texto que deseja decriptar:</label
+        >
+        <div class="texto">
+          <textarea
+            name="inserttext"
+            placeholder="Insira seu texto aqui"
+            cols="30"
+          ></textarea>
+        </div>
       </div>
 
-      <div>
-        <label for="">O que deseja?</label>
-        <select name="" id="" required>
+      <div class="selecao">
+        <label for="opcao">O que deseja?</label>
+        <select name="opcao" id="opcao" required>
           <option selected disabled value="">Selecione uma opção</option>
           <option value="encrypt">Encriptar</option>
-          <option value="decrypt">Descriptar</option>
+          <option value="decrypt">Decriptar</option>
         </select>
+      </div>
 
-        <label for="">Selecione a cifra desejada</label>
-        <select name="" id="" required>
+      <div class="cifras">
+        <label for="cifras">Selecione a cifra desejada:</label>
+        <select name="cifras" id="cifras" required>
           <option selected disabled value="">Escolha uma opção</option>
           <option value="cesar">Cesar</option>
-          <option value="transposicao">Transposição</option>
+          <!--<option value="transposicao">Transposição</option>
           <option value="deslocamento">Deslocamento</option>
           <option value="polybus">Polybus</option>
-          <option value="poligrafica">Poligráfica</option>
+          <option value="poligrafica">Poligráfica</option>-->
         </select>
       </div>
 
-      <div></div>
-
-      <div>
-        <button>Analisar</button>
+      <div class="deslocamento">
+        <label for="deslocamento">Defina o deslocamento:</label>        
+        <input type="number" id="deslocamento" min="1" max="25" value="0" />
+        </select>
       </div>
 
-      <div id="resultado">TEXTO</div>
-
-      <div class="resumo">
-        <p id="resumocesar">resumocesar</p>
-        <p id="resumotrans">resumotrans</p>
-        <p id="resumodeslo">resumodeslo</p>
-        <p id="resumopolyb">resumopolyb</p>
-        <p id="resumopolig">resumopolig</p>
+      <div class="centralizar">
+        <button class="botao">Analisar</button>
       </div>
+
+      <div id="resultado"></div>
     </div>
 
-    <footer>AAAAAAAAA</footer>
+    <footer>
+      <h3>Under development</h3>
+      <p id="author">By Richard F. Rodrigues</p>
+    </footer>
   </body>
 </html>
